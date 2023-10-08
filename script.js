@@ -33,5 +33,5 @@ document.getElementById("allAnnotations").addEventListener("click", function () 
 document.getElementById("liveAnnotations").addEventListener("click", function () {
   document.getElementById("panel").innerHTML = "";
   document.getElementById("panel").innerHTML =
-    '<h4><b>All Annotations:</b></h4><p>1:25:34</p><p>A gunt is a portmanteau between the words "gut" and "cunt" and is used to describe Ethan Ralph\'s Biforcated Navel<br /></p><p>Source: <a href="https://en.wiktionary.org/wiki/gunt">https://en.wiktionary.org/wiki/gunt</a></p>';
+    '<h4><b>Live Annotations:</b></h4><p>1:25:34</p><p>A gunt is a portmanteau between the words "gut" and "cunt" and is used to describe Ethan Ralph\'s Biforcated Navel<br /></p><p>Source: <a href="https://en.wiktionary.org/wiki/gunt">https://en.wiktionary.org/wiki/gunt</a></p>';
 });
