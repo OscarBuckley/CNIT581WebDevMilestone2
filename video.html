@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+    <title>Youtube Annotation Main Page</title>
+  </head>
+  <body>
+    <!-- header bar -->
+    <div class="header">
+      <img src="images/menu.png" id="menuToggle" alt="hamburger" />
+      <img src="images/favicon.png" alt="logo" />
+      <div class="center">
+        <input type="text" id="searchbar" placeholder="Search" />
+        <button id="searchbtn">Search</button>
+      </div>
+      <div class="right">
+        <img src="images/profile.png" alt="profile" />
+      </div>
+    </div>
+
+    <div class="mainBody">
+      <!-- navigation side bar -->
+      <div id="sidenav">
+        <ul class="navi">
+          <li>Home</li>
+          <li>Shorts</li>
+          <li>Subscriptions</li>
+          <li>Library</li>
+          <li>History</li>
+          <li>Your Videos</li>
+          <li>Watch Later</li>
+          <li>Liked Videos</li>
+          <li><a href="index.html">Annotations</a></li>
+          <li>Show More</li>
+        </ul>
+
+        <ul class="about">
+          <li>Settings</li>
+          <li>About</li>
+        </ul>
+      </div>
+
+      <!-- main content -->
+      <div class="content">
+        <iframe width="900" height="600" src="https://www.youtube.com/embed/zCO7p_Ov_9w"> </iframe>
+        <h3>Ethan Ralph Is Riding The Felted Express To Copesville</h3>
+        <div class="metadata">
+          <img src="images/profile.png" id="uploaderPic" alt="uploader" />
+          <div class="accDesc">
+            <h5>Dakka Dakka</h5>
+            <h6>4.2k Subscribers</h6>
+          </div>
+          <button id="subscribebtn">Subscribe</button>
+        </div>
+      </div>
+
+      <!-- right column -->
+      <div class="rightnav">
+        <ul id="rightmenu">
+          <li id="chatReplay">Chat Replay</li>
+          <li id="dropdown">
+            Annotations
+            <ul id="dropdownMenu">
+              <li id="allAnnotations"><a href="#">All Annotations</a></li>
+              <li id="liveAnnotations"><a href="#">Live Annotations</a></li>
+              <li id="addAnnotations"><a href="addAnnotation.html">Add Annotations</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div id="panel">
+          <h4><b>Chat Replay:</b></h4>
+          <p>PPP Won</p>
+          <p>PPP Won</p>
+          <p>FELTED</p>
+          <p>PPP Won</p>
+          <p>RALPH FELTED</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
